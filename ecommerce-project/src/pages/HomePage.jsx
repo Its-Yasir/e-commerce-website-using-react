@@ -1,3 +1,6 @@
+import './HomePage.css'
+import './header.css'
+
 export function HomePage() {
   return (
     <>
