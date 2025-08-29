@@ -1,10 +1,10 @@
 import axios from 'axios';
 import dayjs, { Dayjs } from 'dayjs';
 import { useState, useEffect, Fragment } from 'react';
-import { Header } from './components/Header';
+import { Header } from '../components/Header';
 import { Link } from 'react-router';
 import './OrdersPage.css';
-import './components/header.css'
+import '../components/header.css'
 
 export function OrdersPage({ cart }) {
 
@@ -88,7 +88,6 @@ export function OrdersPage({ cart }) {
               );
             }))
           }
-
         </div>
       </div>
     </>
