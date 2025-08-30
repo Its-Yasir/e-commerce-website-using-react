@@ -17,7 +17,7 @@ function App() {
       setCart(response.data);
     }
     getCartData();
-  },[]);
+  },[cart]);
 
   return (
     <>
